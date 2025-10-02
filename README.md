@@ -51,8 +51,8 @@ def before_all(context):
     app_path = os.path.abspath(os.path.join(os.getcwd(), "app", "LoginExample.apk"))
     options = UiAutomator2Options()
     options.platform_name = "Android"
-    options.platform_version = "11"
-    options.device_name = "emulator-5554"
+    options.platform_version = "14"
+    options.device_name = "testmovil13"
     options.app = app_path
     options.automation_name = "UiAutomator2"
 
